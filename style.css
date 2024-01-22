@@ -18,7 +18,7 @@ header {
 .logo {
     font-size: 2em;
     font-weight: bold;
-    color: red;
+    color: #e8484bf7;
 }
 
 .nav-links {
@@ -39,7 +39,7 @@ header {
 }
 
 .nav-links a:hover {
-    color: red;
+    color: #fc4c4fda;
     font-size: 1.4em;
     font-weight:bolder;
     font-style: italic;
@@ -66,8 +66,8 @@ header {
 }
 
 .content h1 {
-    color: rgb(255, 18, 18);
-    text-shadow: 3px 3px 4px rgb(255, 18, 18);
+    color: #fc4c4fda;
+    text-shadow: 3px 3px 4px rgb(244, 216, 210);
     font-size: 5.0em;
     font-family: 'Monoton', cursive;
     margin-bottom: 10px;
@@ -191,10 +191,7 @@ video {
     .footer{
         width: 1000px;
     }
-    .roww{
-        /* background-color: #000000; */
-        /* padding-left: 1000px; */
-    }
+    
     .container{
         width: 1000px;
     }
@@ -209,9 +206,6 @@ video {
     }
     .fonts{
         font-size:small;
-    }
-    .section-header {
-
     }
 
 
@@ -244,9 +238,20 @@ video {
     }
     
 }
+@media screen and (max-width: 2000px) {
+    #schedule{
+        margin-top: 600px;
+    }
+    .section-with-bg1{
+        margin-top: 40%;
+        overflow:scroll;
+        
+    }
+    
+}
 @media screen and (max-width: 1000px) {
     #schedule{
-        margin-top: 700px;
+        margin-top: 800px;
     }
     .section-with-bg1{
         margin-top: 80%;
@@ -255,7 +260,7 @@ video {
 }
 @media screen and (max-width: 800px) {
     #schedule{
-        margin-top: 750px;
+        margin-top: 900px;
     }
     .section-with-bg1{
         margin-top: 120%;
@@ -264,11 +269,16 @@ video {
 }
 @media screen and (max-width: 600px) {
     #schedule{
-        margin-top: 800px;
+        margin-top: 900px;
     }
     .section-with-bg1{
         margin-top: 180%;
         overflow:scroll;
+    }
+}
+@media screen and (max-width: 450px) {
+    #schedule{
+        margin-top: 500px;
     }
 }
 .section-with-bg1{
